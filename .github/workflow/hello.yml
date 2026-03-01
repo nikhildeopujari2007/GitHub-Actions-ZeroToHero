@@ -1,0 +1,20 @@
+# This is workflow name
+Name :  Hello
+
+# Runs on a Trigger
+on: 
+   push:
+       branches: [main]
+
+# This is Name of Job
+jobs:
+  Greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello to Nikhil
+        runs: echo "Hello Nikhil"
+  Bye:     
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello to Nikhil
+        runs: echo "Hello Nikhil"
