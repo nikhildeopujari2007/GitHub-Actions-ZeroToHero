@@ -1,5 +1,5 @@
 # This is workflow name
-Name :  Hello
+Name : Hello
 
 # Runs on a Trigger
 on: 
@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello to Nikhil
-        runs: echo "Hello Nikhil"
+        run: echo "Hello Nikhil"
   Bye:     
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello to Nikhil
-        runs: echo "Hello Nikhil"
+        run: echo "Hello Nikhil"
